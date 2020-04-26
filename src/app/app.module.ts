@@ -1,3 +1,4 @@
+import { CalculadoraModule } from './calculadora';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -8,7 +9,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CalculadoraModule
   ],
   providers: [],
   bootstrap: [AppComponent]
